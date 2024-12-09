@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid my-4">
+          <div class="d-flex ms-5 align-items-center ps-5">
+            <img src="weather-imgs/IMage1.png" class="img-width m-3 ms-5" alt="cloud">
+            <div class="d-flex flex-column m-3 ">
+            <a class="navbar-brand nav-title pb-0" href="#">Weather</a>
+            <span>tagline goes here</span>
+            </div>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0  me-5 pe-5">
+                <li class="nav-item me-4">
+                  <a class="nav-link  px-4" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item me-4">
+                  <a class="nav-link px-4" href="#">News</a>
+                </li>
+                <li class="nav-item me-4">
+                  <a class="nav-link px-4" href="#">Live Cameras</a>
+                </li>
+                <li class="nav-item me-4">
+                  <a class="nav-link px-4" href="#">Photos</a>
+                </li>
+                <li class="nav-item me-4">
+                  <a class="nav-link active px-4" href="#">Contact</a>
+                </li>
+                
+                
+              </ul>
+          </div>
+        </div>
+      </nav>
+
+
+   <div class="container-fluid bg-pill">
+    <div class="container">
+        <div class=" bg-inside text-white rounded-pill p-3 "><span class="ps-2 pe-2"><a href="index.html">Home</a></span> <i class="fa-solid fa-arrow-right pe-2"></i> Contact</div>
+    </div>
+   </div>
+
+   <div class="container-fluid bg-pill py-5 ">
+    <div class="container d-flex justify-content-around ">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="iframe text-white bg-inside shadow rounded-5 p-3">
+                    <iframe class="pt-2" width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps vehicle tracker</a></iframe>
+                    
+                    <div class="d-flex flex-column">
+                        <div class="pb-2"><i class="fa-solid fa-location-dot pe-2"></i>
+                            <span>Company Name INC.
+                                2803 Avenue Street, Los Angeles</span></div>
+                            <div>
+                                <i class="fa-solid fa-phone pe-2"></i>
+                                <span class="pe-4">+1 800 314 235</span>
+                                <i class="fa-solid fa-envelope pe-2"></i>
+                                <span>contact@companyname.com</span>
+                            </div>
+                    </div>
+                </div>
+            </div>
+         
+            <div class="col-md-6">
+                <div class="form-right w-50 text-white p-3 w-100">
+                    <h1 class="fs-1 text-white">Contact us</h1>
+                    <p class="pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur inventore ducimus, facilis, numquam id soluta omnis eius recusandae nesciunt vero repellat harum cum. Nisi facilis odit hic, ipsum sed!</p>
+                    <div>
+                        <div class="d-flex ">
+                            <input type="text" class="form-control rounded-pill me-2 inputs py-2" placeholder="Your name...">
+                            <input type="email" class="form-control rounded-pill inputs py-2" placeholder="Email address...">
+                        </div>
+                        <div class="d-flex pt-4 ">
+                            <input type="text" class="form-control rounded-pill me-2 inputs py-2" placeholder="Company name...">
+                            <input type="text" class="form-control rounded-pill inputs py-2" placeholder="Website...">
+                        </div>
+                        <textarea placeholder="Message..." rows="5" class="w-100 rounded-4 pt-2 ps-3 mt-3"></textarea>
+                        <button class="btn btn-info rounded-pill text-white pt-2 mt-2">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+
+   <footer class="overflow-auto overflow-hidden">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 position-relative input-footer">
+                <input type="text" id="" class="form-control w-100 rounded-pill py-4 mt-5  " placeholder="Enter your email to subscribe...">
+                <button class="btn btn-info position-absolute rounded-pill py-3 px-3 text-white">Subscribe</button> 
+            </div>
+
+            <div class="col-md-6 icons-footer d-flex align-items-center mt-5">
+            <i class="fa-brands fa-facebook-f ms-5 p-3 me-2"></i>
+            <i class="fa-brands fa-twitter p-3 me-2"></i>
+            <i class="fa-brands fa-google-plus-g p-3 me-2"></i>
+            <i class="fa-brands fa-pinterest p-3"></i>
+            </div>
+            <p class="text-white mt-3 ">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+        
+    </div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.bg-pill {
+    background-color: rgb(30,32,43);
+}
+
+.bg-inside {
+    background-color: rgb(38,41,54);
+}
+
+.inputs {
+    background-color: rgb(30,32,43);
+    color: white;
+    border: 1px solid gray;
+}
+
+.inputs:hover {
+    border-color: aqua;
+}
+
+.inputs::placeholder {
+    color: gray;
+    opacity: 1;   
+}
+
+.inputs:focus {
+    background-color: rgb(30,32,43); 
+    color: white; 
+    outline: none; 
+    box-shadow: none; 
+}
+
+textarea {
+    background-color: rgb(30,32,43);
+    color: white;
+    border: 1px solid gray;
+}
+
+textarea:hover {
+    border-color: aqua;
+}
+
+textarea::placeholder {
+    color: gray;
+    opacity: 1;   
+}
+
+textarea:focus {
+    background-color: rgb(30,32,43); 
+    color: white; 
+    outline: none; 
+    box-shadow: none; 
+}

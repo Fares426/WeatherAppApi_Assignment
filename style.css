@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-toggler {
+    background-color: white; 
+    border: 1px solid rgba(255, 255, 255, 0.5); 
+    border-radius: 5px; 
+}
+
+.w-15 {
+    width: 15%;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%230e71d4' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1.5 12a.5.5 0 0 1 0-1h13a.5.5 0 0 1 0 1h-13zm0-4a.5.5 0 0 1 0-1h13a.5.5 0 0 1 0 1h-13zm0-4a.5.5 0 0 1 0-1h13a.5.5 0 0 1 0 1h-13z'/%3E%3C/svg%3E");
+    /* This changes the hamburger icon color to a custom color (#0e71d4 in this case) */
+    background-size: 100%; /* Ensure the icon fills its container */
+    background-repeat: no-repeat;
+}
+
+
+nav {
+    background-color: rgb(30,32,43);
+    color: white;
+}
+
+.nav-title {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Roboto, "Open Sans", sans-serif;
+}
+
+nav span {
+    color: rgb(191, 193, 200);
+    font-weight: 300;
+    font-family: Roboto, "Open Sans", sans-serif;
+    line-height: 15px;
+    font-size: 10px;
+}
+
+.nav-title:hover {
+    color: white;
+}
+
+.img-width {
+    width: 64px;
+    height: 38px;
+}
+
+.nav-link {
+    color: white;
+    border: 1px solid transparent; 
+    transition: all 0.3s ease; 
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    font-family: Roboto, "Open Sans", sans-serif;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: rgb(14, 177, 220);
+    border-color: rgb(14, 177, 220);
+    border-radius: 20px; 
+    padding-inline: 20px;
+}
+
+.nav-link:hover {
+    color: rgb(14, 177, 220);
+    border-color: rgb(14, 177, 220); 
+    border-radius: 20px;
+}
+
+
+.img-hold {
+    height: 355px;
+    background: url(weather-imgs/IMage2.png);
+}
+
+.plain-color {
+    background-color: rgb(30,32,43);
+    /* height: 300px; */
+    position: relative;
+}
+
+footer {
+    background-color: rgb(38,41,54);
+}
+
+footer button {
+    right: 3%;
+    top: 48%;
+}
+
+.icons-footer i {
+    color: rgb(14, 177, 220);
+    background-color:  rgb(30,32,43);
+    border-radius: 50%;
+    transition: .6s ease ;
+}
+
+.icons-footer i:hover {
+    background-color: rgb(14, 177, 220);
+    color: white;
+    cursor: pointer;
+}
+
+.input-footer input {
+    background-color: rgb(30,32,43);
+    color: white;
+    border: none;
+}
+
+.input-footer input::placeholder {
+    color: gray;
+    opacity: 1;   
+}
+
+.input-footer input:focus {
+    background-color: rgb(30,32,43); 
+    color: white; 
+    outline: none; 
+    box-shadow: none; 
+}
+
+
+.weather-container {
+    top: -350px;
+    left: 45%;
+}
+
+.country {
+    font-family: Roboto, "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.temp {
+    font-family: Roboto, "Open Sans", sans-serif;
+    font-weight: 700;
+    line-height: 135px;
+    font-size: 90px;
+}
+
+.body-card {
+    background-color: rgb(50,53,68);
+}
+
+.head-card {
+    background-color: rgb(45,48,61);
+}
+
+.weather-status {
+    font-family: Roboto, "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 300;
+    color: rgb(0, 154, 216);
+}
+
+.day , .month{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    font-family: Roboto, "Open Sans", sans-serif;
+    color: rgb(191, 193, 200);
+}
+
+.head-card2 {
+    background-color: rgb(34,37,48);
+}
+
+.body-card2 {
+    background-color: rgb(38,41,54);
+    height: 438px;
+}
+
+.temp2 {
+    font-family: Roboto, "Open Sans", sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.low-temp {
+    font-family: Roboto, "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    color: rgb(191, 193, 200);
+}
+
+.body-card3 {
+    background-color: rgb(50,53,68);
+    height: 438px;
+}
+
+
+.search-input {
+    background-color: rgb(30,32,43);
+    color: white;
+    border: none;
+    padding: 15px;
+}
+
+.search-input:focus {
+    background-color: rgb(30,32,43); 
+    color: white; 
+    outline: none; 
+    box-shadow: none; 
+}
+
+.searchBtn {
+    top: 7.8%;
+    right: 1.1%;
+}
+
+@media screen and (max-width:640px) {
+    .weather-container {
+        top: -330px;
+        left: 50%;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .searchBtn {
+        top: 3.2%;
+        right: 3%;
+    }
+}
